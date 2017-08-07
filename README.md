@@ -14,6 +14,8 @@ This compose will give you in on command line:
 - **Truffle**: where you can test and deploy smart contracts
 - **Netstats**: which will collect and send your node perf to our devchain dashboard on http://factory.shinit.net:15000
 
+We strongly encourage to read all this document do understand each step, but if you are in hurry and have to start working asap just go to Annexe Quick Install.
+
 ## 0. Prerequisit
 - A linux VM, preferable ubuntu 14.x or 16.x. If you are on windows or MAC, please use [Vagrant](#vagrant) --> see in annexes 
 - [Docker](#docker) v17 and [docker-compose](#docker-compose) v1.15 
@@ -113,7 +115,15 @@ For that you will need:
 
 ## Annexes
 
+### Quick Install
+- For linux user : `wget https://raw.githubusercontent.com/gregbkr/geth-truffle-docker/master/install.sh; chmod 755 install.sh; ./install.sh`
+
+- for Windows user :
+   - to the procedure in below in Vagrant section
+   - run `chmod 755 install.sh; ./install.sh`
+
 ### Vagrant
+- Install Git for windows or similar command line that you can git. 
 - Install the latest version of [vagrant](https://www.vagrantup.com/downloads.html) and [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 - Clone our repo and go at the root
 - Create vagrant vm: `vagrant up`, and wait the vm to build
